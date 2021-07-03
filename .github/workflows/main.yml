@@ -61,5 +61,4 @@ jobs:
           manifests: |
             k8s/web/deployment.yaml
             k8s/web/service.yaml
-            images: rodrigolinux/rotten-potatoes:${{ github.run_number }}
-            
+          images: rodrigolinux/rotten-potatoes:${{ github.run_number }}
